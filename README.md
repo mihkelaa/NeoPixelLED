@@ -8,4 +8,4 @@ Esimese ülesande põhimõte oli, et ükshaaval teeb ringi ära punane, siis roh
 
 # 2. ülesanne 
 
-Alustuseks lähevad põlema roheline, punane, sinine. Järgmiseks kustub esimene värv ära ning liigub kõige ette ning nii ringiratast.
+Alustuseks lähevad põlema roheline, punane, sinine. Järgmiseks kustub esimene värv ära ning liigub kõige ette ning nii ringiratast peaks minema.
