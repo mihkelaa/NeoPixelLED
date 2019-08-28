@@ -8,4 +8,4 @@ Esimese ülesande põhimõte oli, et ükshaaval teeb ringi ära punane, siis roh
 
 # 2. ülesanne 
 
-Teise ülesande põhimõte oli, et järjestikuselt lähevad põlema 3 LED-i (R,G,B) ning teevad ringi ära.
+Alustuseks lähevad põlema roheline, punane, sinine. Järgmiseks kustub esimene värv ära ning liigub kõige ette ning nii ringiratast.
