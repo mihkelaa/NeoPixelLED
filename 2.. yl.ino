@@ -43,6 +43,4 @@ for(int i=0;i<NUMPIXELS;i++;j++;l++){
 	pixels.clear();
 	delay(DELAYVAL);
 }
-
-
 }
