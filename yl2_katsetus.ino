@@ -15,7 +15,7 @@
 // strandtest example for more information on possible values.
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
-#define DELAYVAL 200 // Time (in milliseconds) to pause between pixels
+#define DELAYVAL 500 // Time (in milliseconds) to pause between pixels
 long loendur=0;
 void setup() {
   // These lines are specifically to support the Adafruit Trinket 5V 16 MHz.
@@ -39,8 +39,8 @@ void loop() {
   loendur++;
   int num=loendur%NUMPIXELS;
   VahetaVarvi(num,loendur%3);
-  VahetaVarvi(num+1,loendur%3);
-  VahetaVarvi(num+2,loendur%3);
+  VahetaVarvi(num+1,(loendur+1)%3);
+  VahetaVarvi(num+2,(loendur+2)%3);
   pixels.clear();
   delay(DELAYVAL);
   
